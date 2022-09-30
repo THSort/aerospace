@@ -1,0 +1,140 @@
+[
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "eventOutput1",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "eventOutput2",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "eventOutput3",
+                "type": "string"
+            }
+        ],
+        "name": "myEventTest",
+        "type": "event",
+        "signature": "0xcd8ffa4544925aac74b0d318ebc932ea2cdbf9f19569a836f4a8838753dc3520"
+    },
+    {
+        "inputs": [],
+        "name": "get",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true,
+        "signature": "0x6d4ce63c"
+    },
+    {
+        "inputs": [],
+        "name": "locationOfInstall",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true,
+        "signature": "0xc78a5a25"
+    },
+    {
+        "inputs": [],
+        "name": "partName",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true,
+        "signature": "0x309e5fe9"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "loc",
+                "type": "string"
+            }
+        ],
+        "name": "set_Loc",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x4bd55b77"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "partname",
+                "type": "string"
+            }
+        ],
+        "name": "set_Part",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x5be225bf"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "techname",
+                "type": "string"
+            }
+        ],
+        "name": "set_Tech",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x02f1e2da"
+    },
+    {
+        "inputs": [],
+        "name": "techName",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true,
+        "signature": "0x41f97bf7"
+    }
+]
